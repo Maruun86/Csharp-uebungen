@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koch-Kurve", "Koch-Kurve\Koch-Kurve.csproj", "{BD57EA7F-EAAF-4D57-BD36-4596129A756D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD57EA7F-EAAF-4D57-BD36-4596129A756D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD57EA7F-EAAF-4D57-BD36-4596129A756D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD57EA7F-EAAF-4D57-BD36-4596129A756D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD57EA7F-EAAF-4D57-BD36-4596129A756D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FBDCCC0-DDA9-48CE-813C-B50A5135FA0A}
+	EndGlobalSection
+EndGlobal

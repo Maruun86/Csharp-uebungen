@@ -1,0 +1,8 @@
+C:\Users\pierr\Nextcloud\Persönlich\Projekte\C# Übungen\Bubblesort\Bubblesort\bin\Debug\Bubblesort.exe.config
+C:\Users\pierr\Nextcloud\Persönlich\Projekte\C# Übungen\Bubblesort\Bubblesort\bin\Debug\Bubblesort.exe
+C:\Users\pierr\Nextcloud\Persönlich\Projekte\C# Übungen\Bubblesort\Bubblesort\bin\Debug\Bubblesort.pdb
+C:\Users\pierr\Nextcloud\Persönlich\Projekte\C# Übungen\Bubblesort\Bubblesort\obj\Debug\Bubblesort.csproj.AssemblyReference.cache
+C:\Users\pierr\Nextcloud\Persönlich\Projekte\C# Übungen\Bubblesort\Bubblesort\obj\Debug\Bubblesort.csproj.SuggestedBindingRedirects.cache
+C:\Users\pierr\Nextcloud\Persönlich\Projekte\C# Übungen\Bubblesort\Bubblesort\obj\Debug\Bubblesort.csproj.CoreCompileInputs.cache
+C:\Users\pierr\Nextcloud\Persönlich\Projekte\C# Übungen\Bubblesort\Bubblesort\obj\Debug\Bubblesort.exe
+C:\Users\pierr\Nextcloud\Persönlich\Projekte\C# Übungen\Bubblesort\Bubblesort\obj\Debug\Bubblesort.pdb

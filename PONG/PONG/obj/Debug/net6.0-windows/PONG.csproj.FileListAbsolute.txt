@@ -1,0 +1,63 @@
+C:\Users\Pierre\Nextcloud\Persönlich\Projekte\C# Übungen\PONG\PONG\bin\Debug\net6.0-windows\PONG.exe
+C:\Users\Pierre\Nextcloud\Persönlich\Projekte\C# Übungen\PONG\PONG\bin\Debug\net6.0-windows\PONG.deps.json
+C:\Users\Pierre\Nextcloud\Persönlich\Projekte\C# Übungen\PONG\PONG\bin\Debug\net6.0-windows\PONG.runtimeconfig.json
+C:\Users\Pierre\Nextcloud\Persönlich\Projekte\C# Übungen\PONG\PONG\bin\Debug\net6.0-windows\PONG.dll
+C:\Users\Pierre\Nextcloud\Persönlich\Projekte\C# Übungen\PONG\PONG\bin\Debug\net6.0-windows\PONG.pdb
+C:\Users\Pierre\Nextcloud\Persönlich\Projekte\C# Übungen\PONG\PONG\obj\Debug\net6.0-windows\PONG.csproj.AssemblyReference.cache
+C:\Users\Pierre\Nextcloud\Persönlich\Projekte\C# Übungen\PONG\PONG\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Pierre\Nextcloud\Persönlich\Projekte\C# Übungen\PONG\PONG\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Pierre\Nextcloud\Persönlich\Projekte\C# Übungen\PONG\PONG\obj\Debug\net6.0-windows\PONG_MarkupCompile.cache
+C:\Users\Pierre\Nextcloud\Persönlich\Projekte\C# Übungen\PONG\PONG\obj\Debug\net6.0-windows\PONG_MarkupCompile.lref
+C:\Users\Pierre\Nextcloud\Persönlich\Projekte\C# Übungen\PONG\PONG\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Pierre\Nextcloud\Persönlich\Projekte\C# Übungen\PONG\PONG\obj\Debug\net6.0-windows\PONG.g.resources
+C:\Users\Pierre\Nextcloud\Persönlich\Projekte\C# Übungen\PONG\PONG\obj\Debug\net6.0-windows\PONG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pierre\Nextcloud\Persönlich\Projekte\C# Übungen\PONG\PONG\obj\Debug\net6.0-windows\PONG.AssemblyInfoInputs.cache
+C:\Users\Pierre\Nextcloud\Persönlich\Projekte\C# Übungen\PONG\PONG\obj\Debug\net6.0-windows\PONG.AssemblyInfo.cs
+C:\Users\Pierre\Nextcloud\Persönlich\Projekte\C# Übungen\PONG\PONG\obj\Debug\net6.0-windows\PONG.csproj.CoreCompileInputs.cache
+C:\Users\Pierre\Nextcloud\Persönlich\Projekte\C# Übungen\PONG\PONG\obj\Debug\net6.0-windows\PONG.dll
+C:\Users\Pierre\Nextcloud\Persönlich\Projekte\C# Übungen\PONG\PONG\obj\Debug\net6.0-windows\refint\PONG.dll
+C:\Users\Pierre\Nextcloud\Persönlich\Projekte\C# Übungen\PONG\PONG\obj\Debug\net6.0-windows\PONG.pdb
+C:\Users\Pierre\Nextcloud\Persönlich\Projekte\C# Übungen\PONG\PONG\obj\Debug\net6.0-windows\PONG.genruntimeconfig.cache
+C:\Users\Pierre\Nextcloud\Persönlich\Projekte\C# Übungen\PONG\PONG\obj\Debug\net6.0-windows\ref\PONG.dll
+C:\Users\Pierre\Documents\Projekte\PONG\PONG\bin\Debug\net6.0-windows\PONG.exe
+C:\Users\Pierre\Documents\Projekte\PONG\PONG\bin\Debug\net6.0-windows\PONG.deps.json
+C:\Users\Pierre\Documents\Projekte\PONG\PONG\bin\Debug\net6.0-windows\PONG.runtimeconfig.json
+C:\Users\Pierre\Documents\Projekte\PONG\PONG\bin\Debug\net6.0-windows\PONG.dll
+C:\Users\Pierre\Documents\Projekte\PONG\PONG\bin\Debug\net6.0-windows\PONG.pdb
+C:\Users\Pierre\Documents\Projekte\PONG\PONG\obj\Debug\net6.0-windows\PONG.csproj.AssemblyReference.cache
+C:\Users\Pierre\Documents\Projekte\PONG\PONG\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Pierre\Documents\Projekte\PONG\PONG\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Pierre\Documents\Projekte\PONG\PONG\obj\Debug\net6.0-windows\PONG_MarkupCompile.cache
+C:\Users\Pierre\Documents\Projekte\PONG\PONG\obj\Debug\net6.0-windows\PONG_MarkupCompile.lref
+C:\Users\Pierre\Documents\Projekte\PONG\PONG\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Pierre\Documents\Projekte\PONG\PONG\obj\Debug\net6.0-windows\PONG.g.resources
+C:\Users\Pierre\Documents\Projekte\PONG\PONG\obj\Debug\net6.0-windows\PONG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pierre\Documents\Projekte\PONG\PONG\obj\Debug\net6.0-windows\PONG.AssemblyInfoInputs.cache
+C:\Users\Pierre\Documents\Projekte\PONG\PONG\obj\Debug\net6.0-windows\PONG.AssemblyInfo.cs
+C:\Users\Pierre\Documents\Projekte\PONG\PONG\obj\Debug\net6.0-windows\PONG.csproj.CoreCompileInputs.cache
+C:\Users\Pierre\Documents\Projekte\PONG\PONG\obj\Debug\net6.0-windows\PONG.dll
+C:\Users\Pierre\Documents\Projekte\PONG\PONG\obj\Debug\net6.0-windows\refint\PONG.dll
+C:\Users\Pierre\Documents\Projekte\PONG\PONG\obj\Debug\net6.0-windows\PONG.pdb
+C:\Users\Pierre\Documents\Projekte\PONG\PONG\obj\Debug\net6.0-windows\PONG.genruntimeconfig.cache
+C:\Users\Pierre\Documents\Projekte\PONG\PONG\obj\Debug\net6.0-windows\ref\PONG.dll
+G:\Meine_Projekte\C#\csharp-uebung\PONG\PONG\bin\Debug\net6.0-windows\PONG.exe
+G:\Meine_Projekte\C#\csharp-uebung\PONG\PONG\bin\Debug\net6.0-windows\PONG.deps.json
+G:\Meine_Projekte\C#\csharp-uebung\PONG\PONG\bin\Debug\net6.0-windows\PONG.runtimeconfig.json
+G:\Meine_Projekte\C#\csharp-uebung\PONG\PONG\bin\Debug\net6.0-windows\PONG.dll
+G:\Meine_Projekte\C#\csharp-uebung\PONG\PONG\bin\Debug\net6.0-windows\PONG.pdb
+G:\Meine_Projekte\C#\csharp-uebung\PONG\PONG\obj\Debug\net6.0-windows\PONG.csproj.AssemblyReference.cache
+G:\Meine_Projekte\C#\csharp-uebung\PONG\PONG\obj\Debug\net6.0-windows\MainWindow.g.cs
+G:\Meine_Projekte\C#\csharp-uebung\PONG\PONG\obj\Debug\net6.0-windows\App.g.cs
+G:\Meine_Projekte\C#\csharp-uebung\PONG\PONG\obj\Debug\net6.0-windows\PONG_MarkupCompile.cache
+G:\Meine_Projekte\C#\csharp-uebung\PONG\PONG\obj\Debug\net6.0-windows\PONG_MarkupCompile.lref
+G:\Meine_Projekte\C#\csharp-uebung\PONG\PONG\obj\Debug\net6.0-windows\MainWindow.baml
+G:\Meine_Projekte\C#\csharp-uebung\PONG\PONG\obj\Debug\net6.0-windows\PONG.g.resources
+G:\Meine_Projekte\C#\csharp-uebung\PONG\PONG\obj\Debug\net6.0-windows\PONG.GeneratedMSBuildEditorConfig.editorconfig
+G:\Meine_Projekte\C#\csharp-uebung\PONG\PONG\obj\Debug\net6.0-windows\PONG.AssemblyInfoInputs.cache
+G:\Meine_Projekte\C#\csharp-uebung\PONG\PONG\obj\Debug\net6.0-windows\PONG.AssemblyInfo.cs
+G:\Meine_Projekte\C#\csharp-uebung\PONG\PONG\obj\Debug\net6.0-windows\PONG.csproj.CoreCompileInputs.cache
+G:\Meine_Projekte\C#\csharp-uebung\PONG\PONG\obj\Debug\net6.0-windows\PONG.dll
+G:\Meine_Projekte\C#\csharp-uebung\PONG\PONG\obj\Debug\net6.0-windows\refint\PONG.dll
+G:\Meine_Projekte\C#\csharp-uebung\PONG\PONG\obj\Debug\net6.0-windows\PONG.pdb
+G:\Meine_Projekte\C#\csharp-uebung\PONG\PONG\obj\Debug\net6.0-windows\PONG.genruntimeconfig.cache
+G:\Meine_Projekte\C#\csharp-uebung\PONG\PONG\obj\Debug\net6.0-windows\ref\PONG.dll
