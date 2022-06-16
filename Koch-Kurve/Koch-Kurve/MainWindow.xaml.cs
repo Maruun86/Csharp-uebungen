@@ -38,7 +38,7 @@ namespace Koch_Kurve
 
                 double dx = x[(i + 1) % x.Length] - x[i];
                 double dy = y[(i + 1) % y.Length] - y[i];
-                xNew[4 * i + 1] = x[i] +  dx / 3.0;
+                xNew[4 * i + 1] = x[i] +  dx / 3.0; 
                 yNew[4 * i + 1] = y[i] +  dy / 3.0;
                 xNew[4 * i + 3] = x[i] + 2.0 * dx / 3.0;
                 yNew[4 * i + 3] = y[i] + 2.0 * dy / 3.0; 

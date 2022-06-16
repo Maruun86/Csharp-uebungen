@@ -1,0 +1,22 @@
+﻿<Window x:Class="Wordcounter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wordcounter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Name="myGrid">
+        <Button Name ="button_Analyse" Content="Text analysieren..." HorizontalAlignment="Center" Margin="0,345,0,0" VerticalAlignment="Top" Height="49" Width="116" Click="button_Analyse_Click"/>
+        <ListView Name ="ListView" HorizontalAlignment="Left" Height="198" Margin="277,77,0,0" VerticalAlignment="Top" Width="268" d:ItemsSource="{d:SampleData ItemCount=5}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Content="Gesamt Anzahl Wörter:" HorizontalAlignment="Left" Margin="271,294,0,0" VerticalAlignment="Top"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="403,294,0,0" VerticalAlignment="Top" x:Name="SumWords" Width="142"/>
+
+    </Grid>
+</Window>
