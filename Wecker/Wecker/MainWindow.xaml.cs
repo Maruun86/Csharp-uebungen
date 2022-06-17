@@ -34,10 +34,9 @@ namespace Wecker
             int hours;
             bool result = int.TryParse(textBoxHours.Text, out hours);
             int minutes;
-            result =int.TryParse(textBoxMinutes.Text, out minutes);
+            result = int.TryParse(textBoxMinutes.Text, out minutes);
             
-            if ( hours > 23 | minutes > 59 ) { result = false; }
-            if (result)
+            if (result && hours >= 0 && hours <= 23 && minutes >= 0 & minutes <= 59 )
             {
                 CreateTermin(title, hours, minutes);
             }
@@ -57,8 +56,11 @@ namespace Wecker
 
         private void Button_Remove(object sender, RoutedEventArgs e)
         {
-            object item = ListBoxTermine.SelectedItem;
-            ListBoxTermine.Items.Remove(item);
+            int i = ListBoxTermine.SelectedIndex;
+            if (i >= 0)
+            {
+                ListBoxTermine.Items.RemoveAt(i);
+            }
 
         }
     }

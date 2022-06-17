@@ -36,7 +36,7 @@ namespace Wecker
         //-------------------
         public override string ToString()
         {
-            string s = this.Title + "-" + this.Hours.ToString() + ":" + this.Minutes.ToString();
+            string s = this.Title + "-" + this.Hours.ToString("D2") + ":" + this.Minutes.ToString("D2");
             return s;
         }
      
