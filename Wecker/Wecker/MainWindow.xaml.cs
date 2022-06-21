@@ -20,11 +20,25 @@ namespace Wecker
     /// </summary>
     public partial class MainWindow : Window
     {
-        //List<Termin> ListTermin = new List<Termin>();
-
+        System.Windows.Threading.DispatcherTimer timer = new System.Windows.Threading.DispatcherTimer();
         public MainWindow()
         {
             InitializeComponent();
+            timer.Interval = TimeSpan.FromMinutes(1);
+            timer.Start();
+            timer.Tick += checkAlarms;
+        }
+
+        void checkAlarms(object sender, EventArgs e)
+        {
+            foreach (var item in ListBoxTermine.Items)
+            {
+                Termin t = (Termin)item;
+                if (t.IsActive())
+                {
+                    t.Ring();
+                }
+            }
         }
 
         private void Button_Add(object sender, RoutedEventArgs e)
@@ -44,14 +58,20 @@ namespace Wecker
             {
                 MessageBox.Show("Es gab ein Fehler, überprüfen Sie ihre Angaben");
             }
-     
         }
+
         private void CreateTermin(string title, int hours, int minutes)
         {
-            Termin newTermin = new Termin(title, hours, minutes);
-           // ListTermin.Add(newTermin);
-            ListBoxTermine.Items.Add(newTermin.ToString());
-
+            if (radioButtonColour.IsChecked == true)
+            {
+                Termin newTermin = new TerminColor(title, hours, minutes, this); //MainWindow wird mitgegeben
+                ListBoxTermine.Items.Add(newTermin);
+            }
+            if (radioButtonSound.IsChecked == true)
+            {
+                Termin newTermin = new TerminSound(title, hours, minutes);
+                ListBoxTermine.Items.Add(newTermin);
+            }
         }
 
         private void Button_Remove(object sender, RoutedEventArgs e)
@@ -61,7 +81,6 @@ namespace Wecker
             {
                 ListBoxTermine.Items.RemoveAt(i);
             }
-
         }
     }
 }

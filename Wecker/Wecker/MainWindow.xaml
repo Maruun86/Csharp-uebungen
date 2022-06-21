@@ -5,17 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wecker"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="437" Width="781"
+        Name="WindowFrame">
     <Grid>
-        <ListBox d:ItemsSource="{d:SampleData ItemCount=5}" Margin="20,27,400,93" Name="ListBoxTermine"/>
-        <Button Content="Termin hinzufügen" x:Name="Button1" HorizontalAlignment="Left" Height="30" Margin="20,341,0,0" VerticalAlignment="Top" Width="380" RenderTransformOrigin="-2.236,4.23" Click="Button_Add"/>
-        <Button Content="Termin löschen" x:Name="Button2" HorizontalAlignment="Left" Height="30" Margin="20,376,0,0" VerticalAlignment="Top" Width="380" RenderTransformOrigin="-2.236,4.23" Click="Button_Remove"/>
+        <ListBox d:ItemsSource="{d:SampleData ItemCount=5}" Margin="20,27,400,231" Name="ListBoxTermine"/>
+        <Button Content ="Termin erstellen" x:Name="Button1" HorizontalAlignment="Left" Height="30" Margin="503,199,0,0" VerticalAlignment="Top" Width="170" RenderTransformOrigin="-2.236,4.23" Click="Button_Add"/>
+        <Button Content="Termin löschen" x:Name="Button2" HorizontalAlignment="Left" Height="30" Margin="68,199,0,0" VerticalAlignment="Top" Width="266" RenderTransformOrigin="-2.236,4.23" Click="Button_Remove"/>
         <TextBox HorizontalAlignment="Left" Name="textBoxTitle"  Height="30" Margin="484,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="222"/>
         <TextBox HorizontalAlignment="Left" x:Name="textBoxHours"  Height="30" Margin="484,104,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="111"/>
         <TextBox HorizontalAlignment="Left" x:Name="textBoxMinutes"  Height="30" Margin="600,104,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="111"/>
         <Label Content="Titel" HorizontalAlignment="Left" Height="26" Margin="484,10,0,0" VerticalAlignment="Top" Width="99"/>
         <Label Content="Stunde" HorizontalAlignment="Left" Height="33" Margin="503,85,0,0" VerticalAlignment="Top" Width="73" RenderTransformOrigin="1.033,0.453"/>
         <Label Content="Minute" HorizontalAlignment="Left" Height="33" Margin="619,85,0,0" VerticalAlignment="Top" Width="73" RenderTransformOrigin="1.033,0.453"/>
+        <RadioButton Content="Farbe" Name="radioButtonColour" HorizontalAlignment="Left" Height="16" Margin="504,153,0,0" VerticalAlignment="Top" Width="91" RenderTransformOrigin="0.51,0.499" IsChecked="True"/>
+        <RadioButton Content="Klang" Name= "radioButtonSound" HorizontalAlignment="Left" Margin="607,157,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.937,-0.706"/>
 
     </Grid>
 </Window>
