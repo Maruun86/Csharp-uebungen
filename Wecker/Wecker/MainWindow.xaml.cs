@@ -20,7 +20,7 @@ namespace Wecker
     /// </summary>
     public partial class MainWindow : Window
     {
-        List<Termin> ListTermin = new List<Termin>();
+        //List<Termin> ListTermin = new List<Termin>();
 
         public MainWindow()
         {
@@ -49,7 +49,7 @@ namespace Wecker
         private void CreateTermin(string title, int hours, int minutes)
         {
             Termin newTermin = new Termin(title, hours, minutes);
-            ListTermin.Add(newTermin);
+           // ListTermin.Add(newTermin);
             ListBoxTermine.Items.Add(newTermin.ToString());
 
         }
