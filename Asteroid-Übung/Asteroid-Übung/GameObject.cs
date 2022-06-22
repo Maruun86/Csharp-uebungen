@@ -171,10 +171,10 @@ namespace Asteroid_Übung
             VX = ship.VX / laenge * festeLaenge + ship.VX;
             VY = ship.VY / laenge * festeLaenge + ship.VY;
 
-            umriss.Points.Add(new System.Windows.Point(-5.0, -5.0));
-            umriss.Points.Add(new System.Windows.Point(5.0, -5.0));
-            umriss.Points.Add(new System.Windows.Point(-5.0, 5.0));
-            umriss.Points.Add(new System.Windows.Point(5.0, 5.0));
+            umriss.Points.Add(new System.Windows.Point(-2.0, -2.0));
+            umriss.Points.Add(new System.Windows.Point(2.0, -2.0));
+            umriss.Points.Add(new System.Windows.Point(2.0, 2.0));
+            umriss.Points.Add(new System.Windows.Point(-2.0, 2.0));
             umriss.Fill = Brushes.Red;
         }
 
