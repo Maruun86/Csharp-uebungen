@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Numerics;
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Shapes;
@@ -105,14 +106,13 @@ namespace Asteroid_Übung
 
         public double Size
         {
-         get { return size; }
+            get { return size; }
         }
     }
 
     class Ship : GameObject
     {
         Polygon umriss = new Polygon();
-        List<Photonentorpedo> photonentorpedoes = new List<Photonentorpedo>();
 
         public Ship(Canvas zeichenfläche)
             : base(0.5 * zeichenfläche.ActualWidth, 0.5 * zeichenfläche.ActualHeight, 5.0, 1.0)
@@ -163,12 +163,18 @@ namespace Asteroid_Übung
         int lifetime = 2000;
 
         public Photonentorpedo(Ship ship)
-            : base(ship.X, ship.Y, 1.5 * ship.VX, 1.5 * ship.VY)
+            : base(ship.X, ship.Y, ship.VX, ship.VY)
         {
-            umriss.Points.Add(new System.Windows.Point(-2.0, -2.0));
-            umriss.Points.Add(new System.Windows.Point(2.0, -2.0));
-            umriss.Points.Add(new System.Windows.Point(-2.0, 2.0));
-            umriss.Points.Add(new System.Windows.Point(2.0, 2.0));
+            const int festeLaenge = 200;
+            //Vektor normalisierung
+            double laenge = Math.Sqrt((Math.Pow(ship.VX, 2) + Math.Pow(ship.VY, 2)));
+            VX = ship.VX / laenge * festeLaenge + ship.VX;
+            VY = ship.VY / laenge * festeLaenge + ship.VY;
+
+            umriss.Points.Add(new System.Windows.Point(-5.0, -5.0));
+            umriss.Points.Add(new System.Windows.Point(5.0, -5.0));
+            umriss.Points.Add(new System.Windows.Point(-5.0, 5.0));
+            umriss.Points.Add(new System.Windows.Point(5.0, 5.0));
             umriss.Fill = Brushes.Red;
         }
 

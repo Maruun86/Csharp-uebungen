@@ -29,29 +29,19 @@ namespace Asteroid_Übung
             for (int i = 0; i < gameObjects.Count; i++)
             {
                 gameObjects[i].Animate(timer.Interval, zeichenfläche);
-
-                //Lifetime check für Torpedos und löschen
-                if (gameObjects[i].GetType() == typeof(Photonentorpedo))
-                {
-                    Photonentorpedo torp = (Photonentorpedo)newGameObjects[i];
-                    if (torp.Lifetime <= 0)
-                    {
-                        newGameObjects.Remove(newGameObjects[i]);
-                    }
-                }
             }
             gameObjects = newGameObjects;
             newGameObjects = this.CheckCollision();
             zeichenfläche.Children.Clear();
             //alte Liste mit Änderungen der neuen Liste überschrieben
 
-           
+
             gameObjects.ForEach(x => x.DrawSelf(zeichenfläche));
         }
         private List<GameObject> CheckCollision()
         {
-           List<Asteroid> asteroids = new List<Asteroid>();
-           List<Photonentorpedo> photonentorpedoes = new List<Photonentorpedo>();
+            List<Asteroid> asteroids = new List<Asteroid>();
+            List<Photonentorpedo> photonentorpedoes = new List<Photonentorpedo>();
             List<GameObject> checkGameObjects = gameObjects;
             //Vorbereitung für Check Split Einträge
             foreach (GameObject a in gameObjects)
@@ -64,13 +54,19 @@ namespace Asteroid_Übung
                 {
                     photonentorpedoes.Add((Photonentorpedo)a);
                 }
-                
+
             }
+            //---
             //finde Einträge mit Collision und
             foreach (Asteroid a in asteroids)
             {
                 foreach (Photonentorpedo p in photonentorpedoes)
                 {
+                    //Check torpedo Lifetime, wenn abgelaufen entferne
+                    if (p.Lifetime <= 0)
+                    {
+                        checkGameObjects.Remove(p);
+                    }
                     if (a.containsPoint(p.X, p.Y))
                     {
                         checkGameObjects.Remove(a);
@@ -80,15 +76,13 @@ namespace Asteroid_Übung
                         checkGameObjects.Add(DestroyAsteroid(a));
 
                     }
-                    
                 }
-
             }
             return checkGameObjects;
         }
         private Asteroid DestroyAsteroid(Asteroid a)
         {
-            Asteroid ast = new Asteroid(zeichenfläche,a.Size / 2);
+            Asteroid ast = new Asteroid(zeichenfläche, a.Size / 2);
             ast.X = a.X;
             ast.Y = a.Y;
 
