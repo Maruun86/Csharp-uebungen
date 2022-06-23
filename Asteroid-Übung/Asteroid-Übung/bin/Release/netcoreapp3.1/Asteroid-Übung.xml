@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Asteroid-Übung</name>
+    </assembly>
+    <members>
+        <member name="T:Asteroid_Übung.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:Asteroid_Übung.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Asteroid_Übung.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:Asteroid_Übung.GameObjects.Asteroid">
+            <summary>
+             <c>Asteroid</c> is a GameObject, saves everything needed for the Asteroid
+            </summary>
+        </member>
+        <member name="M:Asteroid_Übung.GameObjects.Asteroid.#ctor(System.Windows.Controls.Canvas,System.Double)">
+            <summary>
+            <c>Construktor</c>
+            </summary>
+            <param name="zeichenfläche">Canvas for your Asteroid</param> 
+            <param name="size"> Optonal: otherwise will use <c>STANDARD_SIZE</c></param>
+        </member>
+        <member name="M:Asteroid_Übung.GameObjects.Asteroid.containsPoint(System.Double,System.Double)">
+            <summary>
+            Uses the parameters and its own X,Y Coordinates of another <see cref="T:Asteroid_Übung.GameObject"/> to determin a collision.
+            </summary>
+            <param name="x">X-Coordinates of the target <see cref="T:Asteroid_Übung.GameObject"/></param>
+            <param name="y">Y-Coordinates of the target <see cref="T:Asteroid_Übung.GameObject"/></param>
+            <returns></returns>
+        </member>
+        <member name="T:Asteroid_Übung.GameObjects.Photonentorpedo">
+            <summary>
+             <c>Photonentorpedo</c> is a GameObject.
+            </summary>
+        </member>
+        <member name="M:Asteroid_Übung.GameObjects.Photonentorpedo.#ctor(Asteroid_Übung.GameObjects.Ship)">
+            <summary>
+            Constructor: uses the <see cref="T:Asteroid_Übung.GameObjects.Ship"/> as a reference Point.
+            </summary>
+            <param name="ship">Reference Point for start and direction</param>
+        </member>
+        <member name="T:Asteroid_Übung.GameObjects.Ship">
+            <summary>
+             <c>Ship</c> is a GameObject and in this game the "player."
+            </summary>
+        </member>
+        <member name="M:Asteroid_Übung.GameObjects.Ship.BiegeAb(System.Boolean)">
+            <summary>
+            Used for the direction change of the ship with a <see cref="T:System.Boolean"/>.
+            </summary>
+            <param name="nachLinks"> Am i turning towards the left?</param>
+        </member>
+        <member name="M:Asteroid_Übung.GameObjects.Ship.Beschleunige(System.Boolean)">
+            <summary>
+            Used for the acceleration and deacceleration of the ship with a <see cref="T:System.Boolean"/>.
+            </summary>
+            <param name="beschleunige">Do i accelerate?</param>
+        </member>
+        <member name="M:Asteroid_Übung.GameObjects.Ship.Schuss">
+            <summary>
+            Shoots a projectile as a <see cref="T:Asteroid_Übung.GameObjects.Photonentorpedo"/>.
+            </summary>
+            <returns><see cref="T:Asteroid_Übung.GameObjects.Photonentorpedo"/></returns>
+        </member>
+        <member name="T:Asteroid_Übung.GameObject">
+            <summary>
+             <c>GameObject</c> is a abstract Class for every GameObject thats being used in the game />
+            </summary>
+        </member>
+        <member name="M:Asteroid_Übung.GameObject.DrawSelf(System.Windows.Controls.Canvas)">
+            <summary>
+            <c>Abstract: is individuell defined for the child-classes and handles the visual representation of the object</c>
+            </summary>
+            <param name="zeichenfläche"><see cref="T:System.Windows.Controls.Canvas"/>the Canvas thats being used</param>
+        </member>
+        <member name="M:Asteroid_Übung.GameObject.Animate(System.TimeSpan,System.Windows.Controls.Canvas)">
+            <summary>
+            Is for the movement of the Object.
+            </summary>
+            <param name="interval"> <see cref="T:System.TimeSpan"/> The timespan for the movement needed</param>
+            <param name="zeichenfläche"> <see cref="T:System.Windows.Controls.Canvas"/>the Canvas thats being used</param>
+        </member>
+        <member name="T:Asteroid_Übung.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml.
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:Asteroid_Übung.MainWindow.GameLoop(System.Object,System.EventArgs)">
+            <summary>
+            Is used for the standard Gameloop being called by the timer.Tick.
+            </summary>
+            <param name="sender"> <see cref="T:System.Object"/> from timer.tick</param>
+            <param name="e"> <see cref="T:System.EventArgs"/> from timer.Tick</param>
+        </member>
+        <member name="M:Asteroid_Übung.MainWindow.CheckCollision">
+            <summary>
+            Collision check for EVERYTHING.
+            </summary>
+            <returns> A List of <see cref="F:Asteroid_Übung.MainWindow.gameObjects"/> will be returned</returns>
+        </member>
+        <member name="M:Asteroid_Übung.MainWindow.Score(System.Int32)">
+            <summary>
+            You score a point this one fires off.
+            </summary>
+            <param name="increase"> The amount of points the score rises</param>
+        </member>
+        <member name="M:Asteroid_Übung.MainWindow.GameOver">
+            <summary>
+            Game Over Function, when the game ends it ends here.
+            </summary>
+        </member>
+        <member name="M:Asteroid_Übung.MainWindow.DestroyAsteroid(Asteroid_Übung.GameObjects.Asteroid)">
+            <summary>
+            Asteroid gets destroid it will spplit into to half the size.
+            </summary>
+            <param name="a"></param>
+            <returns> back the new <see cref="T:Asteroid_Übung.GameObjects.Asteroid"/></returns>
+        </member>
+        <member name="M:Asteroid_Übung.MainWindow.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Button Event simple the start button.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Asteroid_Übung.MainWindow.Window_KeyDown(System.Object,System.Windows.Input.KeyEventArgs)">
+            <summary>
+            Player controlls also a Event.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Asteroid_Übung.MainWindow.InitializeSound">
+            <summary>
+            Loading the Sounds for use.
+            </summary>
+        </member>
+        <member name="M:Asteroid_Übung.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Asteroid_Übung.Sound">
+            <summary>
+            A class for soundfiles.
+            </summary>
+        </member>
+        <member name="M:Asteroid_Übung.Sound.#ctor(System.String)">
+            <summary>
+            Creates a new Sound, turning it into a Filestream and creates a Soundplayer
+            </summary>
+            <param name="name">The name of the Soundfile as a <see cref="T:System.String"/>. Example:"example.wav"</param>
+        </member>
+    </members>
+</doc>

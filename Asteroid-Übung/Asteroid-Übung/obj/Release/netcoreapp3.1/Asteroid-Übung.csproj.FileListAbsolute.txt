@@ -22,3 +22,5 @@ G:\Meine_Projekte\C#\C# Übungen\Asteroid-Übung\Asteroid-Übung\bin\Release\net
 G:\Meine_Projekte\C#\C# Übungen\Asteroid-Übung\Asteroid-Übung\bin\Release\netcoreapp3.1\sounds\game-over.wav
 G:\Meine_Projekte\C#\C# Übungen\Asteroid-Übung\Asteroid-Übung\bin\Release\netcoreapp3.1\sounds\laser-shoot.wav
 G:\Meine_Projekte\C#\C# Übungen\Asteroid-Übung\Asteroid-Übung\obj\Release\netcoreapp3.1\Asteroid-Übung_Content.g.cs
+G:\Meine_Projekte\C#\C# Übungen\Asteroid-Übung\Asteroid-Übung\bin\Release\netcoreapp3.1\Asteroid-Übung.xml
+G:\Meine_Projekte\C#\C# Übungen\Asteroid-Übung\Asteroid-Übung\obj\Release\netcoreapp3.1\Asteroid-Übung.xml

@@ -8,7 +8,7 @@ using System.Windows.Threading;
 namespace Asteroid_Übung
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for MainWindow.xaml.
     /// </summary>
     public partial class MainWindow : Window
     {
@@ -24,12 +24,18 @@ namespace Asteroid_Übung
 
         public MainWindow()
         {
+            const double TIMESPAN = 1000 / 30 ; // 30FPS
             InitializeComponent();
             InitializeSound();
-            timer.Interval = TimeSpan.FromSeconds(0.1);
+            timer.Interval = TimeSpan.FromMilliseconds(TIMESPAN);
             timer.Tick += GameLoop;
         }
 
+        /// <summary>
+        /// Is used for the standard Gameloop being called by the timer.Tick.
+        /// </summary>
+        /// <param name="sender"> <see cref="object"/> from timer.tick</param>
+        /// <param name="e"> <see cref="EventArgs"/> from timer.Tick</param>
         void GameLoop(object sender, EventArgs e)
         {
             List<GameObject> newGameObjects = gameObjects;
@@ -45,6 +51,10 @@ namespace Asteroid_Übung
 
             gameObjects.ForEach(x => x.DrawSelf(zeichenfläche));
         }
+        /// <summary>
+        /// Collision check for EVERYTHING.
+        /// </summary>
+        /// <returns> A List of <see cref="gameObjects"/> will be returned</returns>
         private List<GameObject> CheckCollision()
         {
             List<Asteroid> asteroids = new List<Asteroid>();
@@ -65,7 +75,7 @@ namespace Asteroid_Übung
 
             }
             //---
-            //finde Einträge mit Collision
+            //finde Einträge mit Collision.
             foreach (Asteroid a in asteroids)
             {
                 foreach (Photonentorpedo p in photonentorpedoes)
@@ -101,11 +111,20 @@ namespace Asteroid_Übung
             }
             return checkGameObjects;
         }
+
+        /// <summary>
+        /// You score a point this one fires off.
+        /// </summary>
+        /// <param name="increase"> The amount of points the score rises</param>
         private void Score(int increase)
         {
             score += increase;
             Label_Score.Content = score;
         }
+
+        /// <summary>
+        /// Game Over Function, when the game ends it ends here.
+        /// </summary>
         private void GameOver()
         {
             //Reset Spielumgebung
@@ -120,6 +139,11 @@ namespace Asteroid_Übung
 
             MessageBox.Show("Game Over!");      
         }
+        /// <summary>
+        /// Asteroid gets destroid it will spplit into to half the size.
+        /// </summary>
+        /// <param name="a"></param>
+        /// <returns> back the new <see cref="Asteroid"/></returns>
         private Asteroid DestroyAsteroid(Asteroid a)
         {
             Asteroid ast = new Asteroid(zeichenfläche, a.Size / 2);
@@ -129,6 +153,11 @@ namespace Asteroid_Übung
             return ast;
         }
 
+        /// <summary>
+        /// Button Event simple the start button.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             player = new Ship(zeichenfläche);
@@ -146,6 +175,11 @@ namespace Asteroid_Übung
 
         }
 
+        /// <summary>
+        /// Player controlls also a Event.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Window_KeyDown(object sender, KeyEventArgs e)
         {
             if (timer.IsEnabled)
@@ -189,6 +223,10 @@ namespace Asteroid_Übung
                 }
             }
         }
+
+        /// <summary>
+        /// Loading the Sounds for use.
+        /// </summary>
         private void InitializeSound()
         {
             Sound s = new Sound("explosion-02.wav");

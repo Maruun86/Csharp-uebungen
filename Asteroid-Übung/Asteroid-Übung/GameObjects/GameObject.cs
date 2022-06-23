@@ -7,6 +7,9 @@ using System.Windows.Shapes;
 
 namespace Asteroid_Übung
 {
+    /// <summary>
+    ///  <c>GameObject</c> is a abstract Class for every GameObject thats being used in the game />
+    /// </summary>
     abstract class GameObject
     {
         //vx und vy sind die Geschwindigkeiten in eine Richtung
@@ -29,7 +32,10 @@ namespace Asteroid_Übung
             this.vx = vx;
             this.vy = vy;
         }
-
+        /// <summary>
+        /// <c>Abstract: is individuell defined for the child-classes and handles the visual representation of the object</c>
+        /// </summary>
+        /// <param name="zeichenfläche"><see cref="Canvas"/>the Canvas thats being used</param>
         public abstract void DrawSelf(Canvas zeichenfläche);
 
         public double X
@@ -41,6 +47,11 @@ namespace Asteroid_Übung
         public double VY
         { get { return vy; } set { vy = value; } }
 
+        /// <summary>
+        /// Is for the movement of the Object.
+        /// </summary>
+        /// <param name="interval"> <see cref="TimeSpan"/> The timespan for the movement needed</param>
+        /// <param name="zeichenfläche"> <see cref="Canvas"/>the Canvas thats being used</param>
         public void Animate(TimeSpan interval, Canvas zeichenfläche)
         {
             x += vx * interval.TotalSeconds;

@@ -7,14 +7,23 @@ using System.Windows.Shapes;
 
 namespace Asteroid_Übung.GameObjects
 {
+
+    /// <summary>
+    ///  <c>Asteroid</c> is a GameObject, saves everything needed for the Asteroid
+    /// </summary>
     class Asteroid : GameObject
     {
         static Random zufall = new Random();
         Polygon umriss = new Polygon();
         double size;
-        const double standardSize = 16.0;
+        const double STANDARD_SIZE = 16.0;
 
-        public Asteroid(Canvas zeichenfläche, double size = standardSize)
+        /// <summary>
+        /// <c>Construktor</c>
+        /// </summary>
+        /// <param name="zeichenfläche">Canvas for your Asteroid</param> 
+        /// <param name="size"> Optonal: otherwise will use <c>STANDARD_SIZE</c></param>
+        public Asteroid(Canvas zeichenfläche, double size = STANDARD_SIZE)
             : base(zufall.NextDouble() * zeichenfläche.ActualWidth,
                   zufall.NextDouble() * zeichenfläche.ActualHeight,
                   (zufall.NextDouble() - 0.5) * 100.0,
@@ -38,6 +47,13 @@ namespace Asteroid_Übung.GameObjects
             Canvas.SetLeft(umriss, X);
             Canvas.SetTop(umriss, Y);
         }
+
+        /// <summary>
+        /// Uses the parameters and its own X,Y Coordinates of another <see cref="GameObject"/> to determin a collision.
+        /// </summary>
+        /// <param name="x">X-Coordinates of the target <see cref="GameObject"/></param>
+        /// <param name="y">Y-Coordinates of the target <see cref="GameObject"/></param>
+        /// <returns></returns>
         public bool containsPoint(double x, double y)
         {
             return umriss.RenderedGeometry.FillContains(new System.Windows.Point(x - X, y - Y));
@@ -48,7 +64,7 @@ namespace Asteroid_Übung.GameObjects
             get { return size; }
         }
         public double SSize
-        { get { return standardSize; } }
+        { get { return STANDARD_SIZE; } }
     }
 
 }
