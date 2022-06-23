@@ -18,3 +18,7 @@ G:\Meine_Projekte\C#\C# Übungen\Asteroid-Übung\Asteroid-Übung\obj\Debug\netco
 G:\Meine_Projekte\C#\C# Übungen\Asteroid-Übung\Asteroid-Übung\obj\Debug\netcoreapp3.1\Asteroid-Übung.dll
 G:\Meine_Projekte\C#\C# Übungen\Asteroid-Übung\Asteroid-Übung\obj\Debug\netcoreapp3.1\Asteroid-Übung.pdb
 G:\Meine_Projekte\C#\C# Übungen\Asteroid-Übung\Asteroid-Übung\obj\Debug\netcoreapp3.1\Asteroid-Übung.genruntimeconfig.cache
+G:\Meine_Projekte\C#\C# Übungen\Asteroid-Übung\Asteroid-Übung\bin\Debug\netcoreapp3.1\sounds\explosion-02.wav
+G:\Meine_Projekte\C#\C# Übungen\Asteroid-Übung\Asteroid-Übung\bin\Debug\netcoreapp3.1\sounds\laser-shoot.wav
+G:\Meine_Projekte\C#\C# Übungen\Asteroid-Übung\Asteroid-Übung\obj\Debug\netcoreapp3.1\Asteroid-Übung_Content.g.cs
+G:\Meine_Projekte\C#\C# Übungen\Asteroid-Übung\Asteroid-Übung\bin\Debug\netcoreapp3.1\sounds\game-over.wav

@@ -7,4 +7,22 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="sounds\explosion-02.wav" />
+    <None Remove="sounds\game-over.wav" />
+    <None Remove="sounds\laser-shoot.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="sounds\explosion-02.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sounds\game-over.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sounds\laser-shoot.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
