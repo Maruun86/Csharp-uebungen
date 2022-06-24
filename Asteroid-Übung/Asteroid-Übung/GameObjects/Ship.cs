@@ -44,7 +44,7 @@ namespace Asteroid_Übung.GameObjects
         /// <param name="nachLinks"> Am i turning towards the left?</param>
         public void BiegeAb(bool nachLinks)
         {
-            double winkel = (nachLinks ? -10.0 : 10.0) * Math.PI / 180.0;
+            double winkel = (nachLinks ? -6.0 : 6.0) * Math.PI / 180.0;
 
             double vxNew = Math.Cos(winkel) * VX - Math.Sin(winkel) * VY;
             VY = Math.Sin(winkel) * VX + Math.Cos(winkel) * VY;
@@ -59,8 +59,18 @@ namespace Asteroid_Übung.GameObjects
         {
             double faktor = beschleunige ? 1.1 : 0.9;
 
+            if (beschleunige)
+            {
+                if (VX >= 100 | VX <= -100 && VY >= 100 | VY <= -100)
+                {
+                    faktor = 1;
+                }
+            }
             VX *= faktor;
             VY *= faktor;
+
+
+
         }
         /// <summary>
         /// Shoots a projectile as a <see cref="Photonentorpedo"/>.

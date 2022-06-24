@@ -102,6 +102,11 @@
             MainWindow
             </summary>
         </member>
+        <member name="M:Asteroid_Übung.MainWindow.#ctor">
+            <summary>
+            MainWindow
+            </summary>
+        </member>
         <member name="M:Asteroid_Übung.MainWindow.GameLoop(System.Object,System.EventArgs)">
             <summary>
             Is used for the standard Gameloop being called by the timer.Tick.
@@ -120,6 +125,16 @@
             You score a point this one fires off.
             </summary>
             <param name="increase"> The amount of points the score rises</param>
+        </member>
+        <member name="M:Asteroid_Übung.MainWindow.GameReset">
+            <summary>
+            Function for a game reset.
+            </summary>
+        </member>
+        <member name="M:Asteroid_Übung.MainWindow.GameWon">
+            <summary>
+            Victory function
+            </summary>
         </member>
         <member name="M:Asteroid_Übung.MainWindow.GameOver">
             <summary>

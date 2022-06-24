@@ -22,6 +22,9 @@ namespace Asteroid_Übung
         
         int score = 0;
 
+        /// <summary>
+        /// MainWindow
+        /// </summary>
         public MainWindow()
         {
             const double TIMESPAN = 1000 / 30 ; // 30FPS
@@ -38,15 +41,30 @@ namespace Asteroid_Übung
         /// <param name="e"> <see cref="EventArgs"/> from timer.Tick</param>
         void GameLoop(object sender, EventArgs e)
         {
-            List<GameObject> newGameObjects = gameObjects;
+            List<GameObject> newGameObjects = new List<GameObject>(gameObjects);
 
             for (int i = 0; i < gameObjects.Count; i++)
             {
+                //Check torpedo Lifetime, wenn abgelaufen entferne
+                if (gameObjects[i].GetType() == typeof(Photonentorpedo))
+                {
+                    Photonentorpedo p = (Photonentorpedo)gameObjects[i];
+                    if (p.Lifetime <= 0)
+                    {
+                        newGameObjects.Remove(p);
+                        photonentorpedoes.Remove(p);
+                    }
+                } 
                 gameObjects[i].Animate(timer.Interval, zeichenfläche);
+
             }
             gameObjects = newGameObjects;
             newGameObjects = this.CheckCollision();
             zeichenfläche.Children.Clear();
+            if(gameObjects.Count == 1)
+            {
+                GameWon();
+            }
             //alte Liste mit Änderungen der neuen Liste überschrieben
 
             gameObjects.ForEach(x => x.DrawSelf(zeichenfläche));
@@ -79,12 +97,7 @@ namespace Asteroid_Übung
             foreach (Asteroid a in asteroids)
             {
                 foreach (Photonentorpedo p in photonentorpedoes)
-                {
-                    //Check torpedo Lifetime, wenn abgelaufen entferne
-                    if (p.Lifetime <= 0)
-                    {
-                        checkGameObjects.Remove(p);
-                    }
+                {                   
                     if (a.containsPoint(p.X, p.Y))
                     {
                         checkGameObjects.Remove(a);
@@ -123,21 +136,38 @@ namespace Asteroid_Übung
         }
 
         /// <summary>
-        /// Game Over Function, when the game ends it ends here.
+        /// Function for a game reset.
         /// </summary>
-        private void GameOver()
+        private void GameReset()
         {
             //Reset Spielumgebung
             timer.Stop();
             gameObjects.Clear();
+            photonentorpedoes.Clear();
+            asteroids.Clear();
             zeichenfläche.Children.Clear();
+          
+        }
+        /// <summary>
+        /// Victory function
+        /// </summary>
+        private void GameWon()
+        {
+            GameReset();
+            sounds["victory.wav"].PlaySound();
+            MessageBox.Show("Du hast " +score+ " Punkte erreicht!");
             start_button.Visibility = Visibility.Visible;
-            score = 0;
-            Label_Score.Content = score;
+        }
 
+        /// <summary>
+        /// Game Over Function, when the game ends it ends here.
+        /// </summary>
+        private void GameOver()
+        {
+            GameReset();
             sounds["game-over.wav"].PlaySound();
-
-            MessageBox.Show("Game Over!");      
+            MessageBox.Show("Game Over!");
+            start_button.Visibility = Visibility.Visible;
         }
         /// <summary>
         /// Asteroid gets destroid it will spplit into to half the size.
@@ -162,7 +192,7 @@ namespace Asteroid_Übung
         {
             player = new Ship(zeichenfläche);
             gameObjects.Add(player);
-
+            
             for (int i = 0; i < 10; i++)
             {
                 Asteroid ast = new Asteroid(zeichenfläche);
@@ -172,6 +202,8 @@ namespace Asteroid_Übung
 
             start_button.Visibility = Visibility.Hidden;
             timer.Start();
+            score = 0;
+            Label_Score.Content = score;
 
         }
 
@@ -234,6 +266,8 @@ namespace Asteroid_Übung
             s = new Sound("game-over.wav");
             sounds.Add(s.Name, s);
             s = new Sound("laser-shoot.wav");
+            sounds.Add(s.Name, s);
+            s = new Sound("victory.wav");
             sounds.Add(s.Name, s);
         }
 

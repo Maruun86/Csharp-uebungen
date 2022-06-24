@@ -11,5 +11,6 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sounds/explosion-02.wav")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sounds/game-over.wav")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sounds/laser-shoot.wav")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sounds/victory.wav")]
 
 

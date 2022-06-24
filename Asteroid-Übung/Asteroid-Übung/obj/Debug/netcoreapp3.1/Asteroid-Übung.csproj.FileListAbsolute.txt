@@ -24,3 +24,4 @@ G:\Meine_Projekte\C#\C# Übungen\Asteroid-Übung\Asteroid-Übung\obj\Debug\netco
 G:\Meine_Projekte\C#\C# Übungen\Asteroid-Übung\Asteroid-Übung\obj\Debug\netcoreapp3.1\Asteroid-Übung.genruntimeconfig.cache
 G:\Meine_Projekte\C#\C# Übungen\Asteroid-Übung\Asteroid-Übung\bin\Debug\netcoreapp3.1\Asteroid-Übung.xml
 G:\Meine_Projekte\C#\C# Übungen\Asteroid-Übung\Asteroid-Übung\obj\Debug\netcoreapp3.1\Asteroid-Übung.xml
+G:\Meine_Projekte\C#\C# Übungen\Asteroid-Übung\Asteroid-Übung\bin\Debug\netcoreapp3.1\sounds\victory.wav

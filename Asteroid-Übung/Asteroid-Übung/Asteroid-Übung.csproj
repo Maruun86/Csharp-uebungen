@@ -12,6 +12,7 @@
     <None Remove="sounds\explosion-02.wav" />
     <None Remove="sounds\game-over.wav" />
     <None Remove="sounds\laser-shoot.wav" />
+    <None Remove="sounds\victory.wav" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,6 +23,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="sounds\laser-shoot.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sounds\victory.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

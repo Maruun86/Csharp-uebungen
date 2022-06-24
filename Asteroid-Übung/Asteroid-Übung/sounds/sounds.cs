@@ -22,7 +22,7 @@ namespace Asteroid_Übung
         public Sound(string name) 
         {
             this.name = name;
-            stream = File.Open("../../../sounds/" + name, FileMode.Open);
+            stream = File.Open("./sounds/" + name, FileMode.Open);
             newSound = new SoundPlayer(stream);
         }
 

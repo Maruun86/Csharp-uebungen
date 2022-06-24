@@ -1,0 +1,10 @@
+C:\Users\pierr\Desktop\Asteroid\sounds\explosion-02.wav
+C:\Users\pierr\Desktop\Asteroid\sounds\game-over.wav
+C:\Users\pierr\Desktop\Asteroid\sounds\laser-shoot.wav
+C:\Users\pierr\Desktop\Asteroid\sounds\victory.wav
+C:\Users\pierr\Desktop\Asteroid\Asteroid-Übung.exe
+C:\Users\pierr\Desktop\Asteroid\Asteroid-Übung.dll
+C:\Users\pierr\Desktop\Asteroid\Asteroid-Übung.deps.json
+C:\Users\pierr\Desktop\Asteroid\Asteroid-Übung.runtimeconfig.json
+C:\Users\pierr\Desktop\Asteroid\Asteroid-Übung.pdb
+C:\Users\pierr\Desktop\Asteroid\Asteroid-Übung.xml
