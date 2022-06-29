@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Bahnfahrplan"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="450" Width="566">
+    <Grid HorizontalAlignment="Left" Width="552">
         <TextBox x:Name="TextBox_StationName" HorizontalAlignment="Left" Height="26" Margin="37,36,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="168"/>
         <Label Content="Bahnhofsname:" HorizontalAlignment="Left" Margin="37,10,0,0" VerticalAlignment="Top"/>
         <Button x:Name="button_GetInformation" Content="Hole Informationen" HorizontalAlignment="Left" Margin="210,39,0,0" VerticalAlignment="Top" Width="22" Click="button_GetInformation_Click"/>
-        <ListBox x:Name="listBox_Information" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="247,23,21,304" MouseDoubleClick="listBox_Information_MouseDoubleClick"/>
-        <Button x:Name="button_GetDepartures" Content="Zeige abfahrten" HorizontalAlignment="Left" Margin="247,135,0,0" VerticalAlignment="Top"/>
-        <ListBox x:Name="listBox_Departures" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,160,0,0" />
+        <ListBox x:Name="listBox_Information" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="248,23,0,246" MouseDoubleClick="listBox_Information_MouseDoubleClick"/>
+        <Button x:Name="button_GetDepartures" Content="Zeige abfahrten" HorizontalAlignment="Left" Margin="234,202,0,0" VerticalAlignment="Top" Click="button_GetDepartures_Click"/>
+        <ListBox x:Name="listBox_Departures" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,232,0,0" />
 
     </Grid>
 </Window>

@@ -25,3 +25,30 @@ G:\Meine_Projekte\C#\C# Übungen\Asteroid-Übung\Asteroid-Übung\obj\Debug\netco
 G:\Meine_Projekte\C#\C# Übungen\Asteroid-Übung\Asteroid-Übung\bin\Debug\netcoreapp3.1\Asteroid-Übung.xml
 G:\Meine_Projekte\C#\C# Übungen\Asteroid-Übung\Asteroid-Übung\obj\Debug\netcoreapp3.1\Asteroid-Übung.xml
 G:\Meine_Projekte\C#\C# Übungen\Asteroid-Übung\Asteroid-Übung\bin\Debug\netcoreapp3.1\sounds\victory.wav
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Asteroid-Übung\Asteroid-Übung\bin\Debug\netcoreapp3.1\Asteroid-Übung.exe
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Asteroid-Übung\Asteroid-Übung\bin\Debug\netcoreapp3.1\sounds\explosion-02.wav
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Asteroid-Übung\Asteroid-Übung\bin\Debug\netcoreapp3.1\sounds\game-over.wav
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Asteroid-Übung\Asteroid-Übung\bin\Debug\netcoreapp3.1\sounds\laser-shoot.wav
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Asteroid-Übung\Asteroid-Übung\bin\Debug\netcoreapp3.1\sounds\victory.wav
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Asteroid-Übung\Asteroid-Übung\bin\Debug\netcoreapp3.1\Asteroid-Übung.deps.json
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Asteroid-Übung\Asteroid-Übung\bin\Debug\netcoreapp3.1\Asteroid-Übung.runtimeconfig.json
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Asteroid-Übung\Asteroid-Übung\bin\Debug\netcoreapp3.1\Asteroid-Übung.runtimeconfig.dev.json
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Asteroid-Übung\Asteroid-Übung\bin\Debug\netcoreapp3.1\Asteroid-Übung.dll
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Asteroid-Übung\Asteroid-Übung\bin\Debug\netcoreapp3.1\Asteroid-Übung.pdb
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Asteroid-Übung\Asteroid-Übung\bin\Debug\netcoreapp3.1\Asteroid-Übung.xml
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Asteroid-Übung\Asteroid-Übung\obj\Debug\netcoreapp3.1\Asteroid-Übung.csproj.AssemblyReference.cache
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Asteroid-Übung\Asteroid-Übung\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Asteroid-Übung\Asteroid-Übung\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Asteroid-Übung\Asteroid-Übung\obj\Debug\netcoreapp3.1\Asteroid-Übung_Content.g.cs
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Asteroid-Übung\Asteroid-Übung\obj\Debug\netcoreapp3.1\Asteroid-Übung_MarkupCompile.cache
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Asteroid-Übung\Asteroid-Übung\obj\Debug\netcoreapp3.1\Asteroid-Übung_MarkupCompile.lref
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Asteroid-Übung\Asteroid-Übung\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Asteroid-Übung\Asteroid-Übung\obj\Debug\netcoreapp3.1\Asteroid-Übung.g.resources
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Asteroid-Übung\Asteroid-Übung\obj\Debug\netcoreapp3.1\Asteroid-Übung.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Asteroid-Übung\Asteroid-Übung\obj\Debug\netcoreapp3.1\Asteroid-Übung.AssemblyInfoInputs.cache
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Asteroid-Übung\Asteroid-Übung\obj\Debug\netcoreapp3.1\Asteroid-Übung.AssemblyInfo.cs
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Asteroid-Übung\Asteroid-Übung\obj\Debug\netcoreapp3.1\Asteroid-Übung.csproj.CoreCompileInputs.cache
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Asteroid-Übung\Asteroid-Übung\obj\Debug\netcoreapp3.1\Asteroid-Übung.dll
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Asteroid-Übung\Asteroid-Übung\obj\Debug\netcoreapp3.1\Asteroid-Übung.xml
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Asteroid-Übung\Asteroid-Übung\obj\Debug\netcoreapp3.1\Asteroid-Übung.pdb
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Asteroid-Übung\Asteroid-Übung\obj\Debug\netcoreapp3.1\Asteroid-Übung.genruntimeconfig.cache

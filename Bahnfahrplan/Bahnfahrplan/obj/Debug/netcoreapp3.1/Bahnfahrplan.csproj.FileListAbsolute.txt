@@ -40,3 +40,25 @@ G:\Meine_Projekte\C#\C# Übungen\Bahnfahrplan\Bahnfahrplan\obj\Debug\netcoreapp3
 G:\Meine_Projekte\C#\C# Übungen\Bahnfahrplan\Bahnfahrplan\obj\Debug\netcoreapp3.1\Bahnfahrplan.genruntimeconfig.cache
 G:\Meine_Projekte\C#\C# Übungen\Bahnfahrplan\Bahnfahrplan\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 G:\Meine_Projekte\C#\C# Übungen\Bahnfahrplan\Bahnfahrplan\obj\Debug\netcoreapp3.1\Bahnfahrplan.csproj.CopyComplete
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Bahnfahrplan\Bahnfahrplan\bin\Debug\netcoreapp3.1\Bahnfahrplan.exe
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Bahnfahrplan\Bahnfahrplan\bin\Debug\netcoreapp3.1\Bahnfahrplan.deps.json
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Bahnfahrplan\Bahnfahrplan\bin\Debug\netcoreapp3.1\Bahnfahrplan.runtimeconfig.json
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Bahnfahrplan\Bahnfahrplan\bin\Debug\netcoreapp3.1\Bahnfahrplan.runtimeconfig.dev.json
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Bahnfahrplan\Bahnfahrplan\bin\Debug\netcoreapp3.1\Bahnfahrplan.dll
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Bahnfahrplan\Bahnfahrplan\bin\Debug\netcoreapp3.1\Bahnfahrplan.pdb
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Bahnfahrplan\Bahnfahrplan\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Bahnfahrplan\Bahnfahrplan\obj\Debug\netcoreapp3.1\Bahnfahrplan.csproj.AssemblyReference.cache
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Bahnfahrplan\Bahnfahrplan\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Bahnfahrplan\Bahnfahrplan\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Bahnfahrplan\Bahnfahrplan\obj\Debug\netcoreapp3.1\Bahnfahrplan_MarkupCompile.cache
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Bahnfahrplan\Bahnfahrplan\obj\Debug\netcoreapp3.1\Bahnfahrplan_MarkupCompile.lref
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Bahnfahrplan\Bahnfahrplan\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Bahnfahrplan\Bahnfahrplan\obj\Debug\netcoreapp3.1\Bahnfahrplan.g.resources
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Bahnfahrplan\Bahnfahrplan\obj\Debug\netcoreapp3.1\Bahnfahrplan.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Bahnfahrplan\Bahnfahrplan\obj\Debug\netcoreapp3.1\Bahnfahrplan.AssemblyInfoInputs.cache
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Bahnfahrplan\Bahnfahrplan\obj\Debug\netcoreapp3.1\Bahnfahrplan.AssemblyInfo.cs
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Bahnfahrplan\Bahnfahrplan\obj\Debug\netcoreapp3.1\Bahnfahrplan.csproj.CoreCompileInputs.cache
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Bahnfahrplan\Bahnfahrplan\obj\Debug\netcoreapp3.1\Bahnfahrplan.csproj.CopyComplete
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Bahnfahrplan\Bahnfahrplan\obj\Debug\netcoreapp3.1\Bahnfahrplan.dll
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Bahnfahrplan\Bahnfahrplan\obj\Debug\netcoreapp3.1\Bahnfahrplan.pdb
+C:\Users\Pierre\Documents\Projekte\Csharp-uebungen\Bahnfahrplan\Bahnfahrplan\obj\Debug\netcoreapp3.1\Bahnfahrplan.genruntimeconfig.cache

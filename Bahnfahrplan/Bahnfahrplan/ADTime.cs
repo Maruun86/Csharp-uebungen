@@ -1,9 +1,8 @@
 ﻿namespace Bahnfahrplan
 {
-    class Station
+    class ADTime
     {
         public string name;
-        public string id;
         public string type;
         public string dateTimeArrival;
         public string dateTimeDeparture;
