@@ -38,6 +38,7 @@ namespace Bahnfahrplan
         public List<Location> GetLocation(string locationName)
         {
             locationName = WebUtility.UrlEncode(locationName);
+
             string s = w.DownloadString(uri + "location/" + locationName);
             JArray jArray = JArray.Parse(s);
             List<Location> locationList = new List<Location>();

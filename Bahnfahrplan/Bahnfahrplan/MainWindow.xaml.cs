@@ -1,8 +1,5 @@
-﻿using Newtonsoft.Json.Linq;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Net;
-using System.Text;
 using System.Windows;
 
 namespace Bahnfahrplan
@@ -13,7 +10,7 @@ namespace Bahnfahrplan
     public partial class MainWindow : Window
     {
         DateTime d;
-        BahnAPI bahnAPI;
+        IBahnAPI bahnAPI;
         string uri = "http://api.deutschebahn.com/freeplan/v1/";
 
         public MainWindow()
@@ -38,8 +35,7 @@ namespace Bahnfahrplan
             {
                 bahnAPI.Date = d;
             }
-
-
+            
             List<Location> locationList = bahnAPI.GetLocation(location);
 
             //Listbox wird gecleared und vorbereitet die Informationen aufzunehmen
@@ -49,8 +45,6 @@ namespace Bahnfahrplan
             {
                 listBox_Information.Items.Add(loc);
             }
-
-
         }
 
         private void listBox_Information_MouseDoubleClick(object sender, System.Windows.Input.MouseButtonEventArgs e)

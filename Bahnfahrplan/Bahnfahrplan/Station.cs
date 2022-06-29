@@ -3,7 +3,6 @@
     class Station
     {
         public string name;
-        public string id;
         public string type;
         public string dateTimeArrival;
         public string dateTimeDeparture;
