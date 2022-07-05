@@ -35,15 +35,21 @@ namespace Bahnfahrplan
             {
                 bahnAPI.Date = d;
             }
-            
-            List<Location> locationList = bahnAPI.GetLocation(location);
-
-            //Listbox wird gecleared und vorbereitet die Informationen aufzunehmen
-            listBox_Information.Items.Clear();
-
-            foreach (var loc in locationList)
+            try
             {
-                listBox_Information.Items.Add(loc);
+                List<Location> locationList = bahnAPI.GetLocation(location);
+
+                //Listbox wird gecleared und vorbereitet die Informationen aufzunehmen
+                listBox_Information.Items.Clear();
+
+                foreach (var loc in locationList)
+                {
+                    listBox_Information.Items.Add(loc);
+                }
+            }
+            catch
+            {
+                MessageBox.Show(" Fehler: BahnAPI,GetLocation - \n" + uri + "location/" + location);
             }
         }
 
@@ -52,11 +58,19 @@ namespace Bahnfahrplan
             int index = listBox_Information.SelectedIndex;
 
             listBox_Departures.Items.Clear();
-            List<Station> stationList = bahnAPI.GetArrivalDepartureStation(index);
 
-            foreach (var station in stationList)
+            try
             {
-                listBox_Departures.Items.Add(station);
+                List<Station> stationList = bahnAPI.GetArrivalDepartureStation(index);
+
+                foreach (var station in stationList)
+                {
+                    listBox_Departures.Items.Add(station);
+                }
+            }
+            catch
+            {
+                MessageBox.Show(" Fehler: BahnAPI.GetArrivalDepartureStation - \n" + "Irgendwas lief schief");
             }
         }
 
