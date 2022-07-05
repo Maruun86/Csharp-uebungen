@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dateiwächter", "Dateiwächter\Dateiwächter.csproj", "{4E2FCBC4-5FCB-446E-A7E9-C0B33325B6AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E2FCBC4-5FCB-446E-A7E9-C0B33325B6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E2FCBC4-5FCB-446E-A7E9-C0B33325B6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E2FCBC4-5FCB-446E-A7E9-C0B33325B6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E2FCBC4-5FCB-446E-A7E9-C0B33325B6AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD99564B-F185-4BDF-8DE6-C8C5B22FD497}
+	EndGlobalSection
+EndGlobal
